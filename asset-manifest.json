@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bookshelf-react/static/css/main.6d91b56b.css",
+    "main.js": "/bookshelf-react/static/js/main.6442b688.js",
+    "static/media/icons.svg": "/bookshelf-react/static/media/icons.823105460c966d09710810b9c0824464.svg",
+    "index.html": "/bookshelf-react/index.html",
+    "main.6d91b56b.css.map": "/bookshelf-react/static/css/main.6d91b56b.css.map",
+    "main.6442b688.js.map": "/bookshelf-react/static/js/main.6442b688.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d91b56b.css",
+    "static/js/main.6442b688.js"
+  ]
+}
