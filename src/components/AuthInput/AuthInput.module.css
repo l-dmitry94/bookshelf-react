@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    height: 64px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.01em;
+    outline: transparent;
+    border: 2px solid var(--black);
+    border-radius: 40px;
+    padding: 0 40px;
+}
+
+.input::placeholder {
+    color: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+    fill: transparent;
+    stroke: var(--black);
+}

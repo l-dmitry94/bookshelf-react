@@ -1,0 +1,24 @@
+.auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 48px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    color: var(--white);
+    border: 1.5px solid var(--black);
+    border-radius: 18px;
+    background-color: var(--violet);
+    padding: 0 14px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: transparent;
+    stroke: var(--yellow);
+}

@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: rgba(17, 17, 17, 0.5);
+}
+
+.link:global(.active) {
+    text-decoration: underline;
+    color: var(--violet);
+}

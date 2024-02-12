@@ -1,0 +1,74 @@
+.wrapper {
+    position: relative;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background: var(--violet);
+    border-radius: 36px;
+    padding: 0 12px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 37px;
+    background-color: #f6f6f6;
+    border-radius: 100%;
+    margin-right: 9px;
+}
+
+.icon {
+    width: 19px;
+    height: 19px;
+    fill: var(--violet);
+}
+
+.username {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+    color: var(--white);
+    margin-right: 4px;
+}
+
+.arrow {
+    width: 23px;
+    height: 26px;
+    fill: var(--white);
+    transition: transform .2s linear;
+}
+
+.open {
+    transform: rotate(180deg);
+}
+
+.logout {
+    position: absolute;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    border: 1.5px solid var(--black);
+    color: var(--black);
+    border-radius: 18px;
+    background: var(--white);
+    padding: 0 14px;
+}
+
+.arrowLogout {
+    width: 20px;
+    height: 20px;
+    fill: transparent;
+    stroke: var(--yellow);
+}

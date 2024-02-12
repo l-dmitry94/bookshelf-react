@@ -1,0 +1,28 @@
+.header {
+    background: var(--white);
+    border: 1.5px solid var(--black);
+    border-radius: 0 0 8px 8px;
+    padding: 12px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main {
+    margin-top: 40px;
+}

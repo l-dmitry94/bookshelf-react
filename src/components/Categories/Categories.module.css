@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 356px;
+    width: 100%;
+    height: 472px;
+    overflow-y: auto;
+    margin-bottom: 86px;
+}
+
+.item {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.6);
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--violet);
+}
