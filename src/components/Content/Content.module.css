@@ -1,0 +1,24 @@
+.content {
+}
+
+.wrapper {
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+}
+
+.titleColor {
+    composes: title;
+    color: var(--violet);
+}
+
+.topBooks {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

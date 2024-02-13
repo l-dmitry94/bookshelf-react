@@ -1,0 +1,26 @@
+.item {
+    flex-basis: calc((100% - 96px) / 5);
+}
+
+.image {
+    height: 256px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 14px;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.author {
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    color: #b4afaf;
+}

@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react';
 import { fetchCategories } from 'service/bookshelf-api';
 import css from './Categories.module.css';
+import { useDispatch } from 'react-redux';
+import { chooseCategory } from '../../redux/category/slice';
 
 const Categories = () => {
     const [categories, setCategories] = useState([]);
     const [activeIndex, setActiveIndex] = useState(0);
+
+    const dispatch = useDispatch()
 
     useEffect(() => {
         const getCategories = async () => {
@@ -29,6 +33,8 @@ const Categories = () => {
 
     const changeActiveIndex = (index) => {
         setActiveIndex(index);
+
+        dispatch(chooseCategory(categories[index].list_name))
     };
 
     const items = categories.map(({ list_name }, index) => (
